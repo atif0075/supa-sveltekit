@@ -28,7 +28,7 @@
             type="text"
             bind:value={name}
             class="
-                  mt-1  block w-full rounded-md  bg-zinc-700
+                  mt-1  block w-full rounded-md  py-2.5 px-1 bg-zinc-700
                   border-transparent
                   text-gray-100
                   focus:border-gray-500  focus:ring-0
@@ -42,7 +42,7 @@
             type="email"
             bind:value={email}
             class="
-                  mt-1  block  w-full  rounded-md  bg-zinc-700 border-transparent   text-gray-100
+                  mt-1  block  w-full  rounded-md py-2.5 px-1 bg-zinc-700 border-transparent   text-gray-100
                   focus:border-gray-500  focus:ring-0
                 "
             placeholder="john@example.com"
@@ -54,7 +54,7 @@
             type="number"
             bind:value={phone}
             class="
-                  mt-1  block  w-full  rounded-md  bg-zinc-700 border-transparent   text-gray-100
+                  mt-1  block  w-full  rounded-md py-2.5 px-1 bg-zinc-700 border-transparent   text-gray-100
                   focus:border-gray-500  focus:ring-0 text-white2
                 "
             placeholder="123 456 7890"

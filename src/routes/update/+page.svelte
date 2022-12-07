@@ -55,7 +55,7 @@
 
 <main>
   <div
-    class="overflow-x-auto container mx-auto flex flex-col items-center justify-center"
+    class="overflow-x-auto pt-10 container mx-auto flex flex-col items-center justify-center"
   >
     <table
       class="max-w-3xl w-full divide-y-2 divide-zinc-200 text-sm dark:divide-zinc-700"
@@ -158,11 +158,11 @@
                 type="text"
                 bind:value={name}
                 class="
-                      mt-1  block w-full rounded-md  bg-zinc-700
-                      border-transparent
-                      text-gray-100
-                      focus:border-gray-500  focus:ring-0
-                    "
+           mt-1 block w-full rounded-md py-2.5 px-1 bg-zinc-700
+           border-transparent
+           text-gray-100
+           focus:border-gray-500 focus:ring-0
+          "
                 placeholder="John Doe"
               />
             </label>
@@ -172,9 +172,9 @@
                 type="email"
                 bind:value={email}
                 class="
-                      mt-1  block  w-full  rounded-md  bg-zinc-700 border-transparent   text-gray-100
-                      focus:border-gray-500  focus:ring-0
-                    "
+           mt-1 block w-full rounded-md py-2.5 px-1 bg-zinc-700 border-transparent  text-gray-100
+           focus:border-gray-500 focus:ring-0
+          "
                 placeholder="john@example.com"
               />
             </label>
@@ -184,9 +184,9 @@
                 type="number"
                 bind:value={phone}
                 class="
-                      mt-1  block  w-full  rounded-md  bg-zinc-700 border-transparent   text-gray-100
-                      focus:border-gray-500  focus:ring-0 text-white2
-                    "
+           mt-1 block w-full rounded-md py-2.5 px-1 bg-zinc-700 border-transparent  text-gray-100
+           focus:border-gray-500 focus:ring-0 text-white2
+          "
                 placeholder="123 456 7890"
               />
             </label>

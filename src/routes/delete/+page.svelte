@@ -33,7 +33,7 @@
 </script>
 
 <main>
-  <div class="overflow-x-auto container mx-auto flex justify-center">
+  <div class="overflow-x-auto pt-10 container mx-auto flex justify-center">
     <table
       class="max-w-3xl w-full divide-y-2 divide-zinc-200 text-sm dark:divide-zinc-700"
     >
