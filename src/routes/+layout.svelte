@@ -7,3 +7,9 @@
   <Navbar />
   <slot />
 </main>
+
+<style>
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+</style>

@@ -2,6 +2,7 @@
   import supabase from "../../lib/supabaseClient";
   import { onMount } from "svelte";
   import Loading from "../../components/loading.svelte";
+  import autoAnimate from "@formkit/auto-animate";
   let name = "";
   let email = "";
   let phone = "";
@@ -85,7 +86,10 @@
         </tr>
       </thead>
 
-      <tbody class="divide-y divide-zinc-200 dark:divide-zinc-700">
+      <tbody
+        use:autoAnimate
+        class="divide-y divide-zinc-200 dark:divide-zinc-700"
+      >
         {#each allUser as user}
           <tr>
             <td
